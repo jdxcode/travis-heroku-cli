@@ -1,0 +1,8 @@
+language: nodejs
+
+before_install:
+  - heroku -v
+  - heroku update
+
+script:
+  - heroku -v
